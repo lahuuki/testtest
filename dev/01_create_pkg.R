@@ -25,7 +25,8 @@ remotes::install_cran(
         "rstudioapi",
         "sessioninfo",
         "styler",
-        "usethis"
+        "usethis",
+        "pkgdown"
     )
 )
 if (!requireNamespace("BiocStyle", quietly = TRUE)) {
